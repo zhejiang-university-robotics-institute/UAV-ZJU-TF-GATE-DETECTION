@@ -1,0 +1,27 @@
+在本地项目文件中使用bash
+
+$ git config --global user.name "你的名字"
+
+$ git config --global user.email "你的邮箱"
+
+1. 初始化  
+
+$ git init 
+
+$ git remote add origin https://gitee.com/xxx/xxx.git (你的远程项目地址)
+
+2.克隆一下
+
+$ git clone https://****.git (你的远程项目地址)
+
+3. 提交
+
+$ git pull origin master   #可不用
+
+$ git add .
+
+$ git commit -m "添加此次更新的内容备注"
+
+$ git push origin master
+
+完成了第一次提交
